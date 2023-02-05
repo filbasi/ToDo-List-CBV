@@ -1,0 +1,33 @@
+{% extends 'todo_list_app/base.html' %}
+{% block content %}
+
+<div class="header-bar">
+    <h1>Register</h1>
+</div>
+
+<div class="card-body">
+    <form method="POST">
+        {% csrf_token %}
+        <div id="custom-register-form">
+            <label>{{ form.username.label }}</label>
+            {{ form.username }}
+        </div>
+
+        <div id="custom-register-form">
+            <label>{{ form.password1.label }}</label>
+            {{ form.password1 }}
+        </div>
+
+        <div id="custom-register-form">
+            <label>{{ form.password2.label }}</label>
+            {{ form.password2 }}
+        </div>
+
+        <input class="button" id="button1" type="submit" value="Register">
+    </form>
+
+    <p>Already have an account? <a href="{% url 'login' %}">Login</a></p>
+</div>
+
+
+{% endblock content %}

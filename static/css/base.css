@@ -1,0 +1,123 @@
+body {
+    background-color: #fff9f4;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffedce;
+    background: linear-gradient(#ffe4b5, #fff2db);
+    box-shadow: 2px 2px 3px -4px black;
+
+}
+
+.header-bar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 15px 15px 0 0;
+    background: linear-gradient(#deae5ae4, #ffe4b5);
+
+}
+
+.header-bar a {
+    color: #b07d24e4;
+    text-decoration: none;
+
+}
+
+.task-wrapper {
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid orange;
+    overflow: hidden;
+}
+
+.task-title {
+    display: flex;
+}
+
+.task-title a {
+    color: rgb(132, 123, 123);
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.task-complete-icon {
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+    background-color: green;
+}
+
+.task-incomplete-icon {
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.task-delete {
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+}
+
+.search-add-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.add-link {
+    text-decoration: none;
+    color: green;
+    height: 30px;
+    width: 30px;
+}
+
+input[type=text],
+input[type=password],
+textarea {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 95%;
+    padding: 8px;
+}
+
+.button {
+    justify-content: space-between;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+#button1 {
+    margin-top: 10px;
+}
+
+#custom-register-form {
+    margin-top: 10px;
+}
